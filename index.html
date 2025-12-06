@@ -9,8 +9,17 @@
 <body>
 
     <header class="hero">
+        <!-- Profile Image -->
+        <img id="profile-image" src="profile.jpg" alt="Charles Ngo" class="profile-img">
+
         <h1>Charles Edrick P. Ngo</h1>
         <p class="subtitle">“I am discovering parts of myself I never knew I needed.”</p>
+
+        <!-- Image Upload Input -->
+        <div class="image-upload">
+            <label for="imageInput" class="btn upload-btn">Change Profile Image</label>
+            <input type="file" id="imageInput" accept="image/*" style="display:none">
+        </div>
     </header>
 
     <section class="section-card">
@@ -61,6 +70,23 @@
             <a href="https://www.facebook.com/charlesssss123" class="btn facebook">Facebook</a>
         </div>
     </section>
+
+    <!-- JavaScript to handle image input -->
+    <script>
+        const imageInput = document.getElementById('imageInput');
+        const profileImage = document.getElementById('profile-image');
+
+        imageInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    profileImage.src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
 
 </body>
 </html>
