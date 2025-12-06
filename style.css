@@ -3,50 +3,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "Impact", "Arial Black", sans-serif;
 }
 
+/* BODY */
 body {
-    background: #f5f5f5;
+    background: #f2f2f2;
     color: #222;
     line-height: 1.6;
 }
 
 /* HEADER */
 .hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #4B0082, #191970);
+    background: #d00000;
     color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 8px solid black;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+.title {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 0px black;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
 }
 
 /* SECTIONS */
 section {
-    padding: 30px 20px;
     max-width: 900px;
     margin: auto;
+    padding: 30px 20px;
 }
 
 h2 {
+    font-size: 2rem;
+    color: #d00000;
     margin-bottom: 15px;
-    color: #4B0082;
-    font-size: 1.8rem;
+    border-left: 6px solid black;
+    padding-left: 10px;
 }
 
 /* LISTS */
 ul li {
+    font-size: 1.2rem;
     margin-bottom: 8px;
-    font-size: 1.1rem;
+    padding-left: 10px;
+    border-left: 4px solid #d00000;
 }
 
 /* PROJECT LINKS */
 .projects ul li a {
-    color: #191970;
+    color: #d00000;
     text-decoration: none;
     font-weight: bold;
 }
@@ -56,19 +69,20 @@ ul li {
 }
 
 /* CONTACT ICONS */
-.contact img {
+.badges img {
+    margin: 5px;
     transition: 0.3s;
 }
 
-.contact img:hover {
+.badges img:hover {
     transform: scale(1.1);
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 15px;
-    background: #191970;
+    background: black;
     color: white;
+    padding: 15px;
     margin-top: 20px;
 }
