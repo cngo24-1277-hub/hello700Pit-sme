@@ -1,0 +1,54 @@
+:root {
+    --bg: #fafafa;
+    --text: #222;
+    --card: #fff;
+    --border: #ddd;
+}
+
+body.dark {
+    --bg: #121212;
+    --text: #eee;
+    --card: #1e1e1e;
+    --border: #333;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--card);
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+pre {
+    background: rgba(0,0,0,0.06);
+    padding: 0.8rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+body.dark pre {
+    background: rgba(255,255,255,0.08);
+}
