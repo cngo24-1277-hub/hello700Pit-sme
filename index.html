@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Repository</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>My Repository</h1>
+        <button id="themeToggle">🌓</button>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Overview</h2>
+            <p>This repository contains XYZ. Use this section like a README.</p>
+        </section>
+
+        <section class="card">
+            <h2>Installation</h2>
+            <pre><code>git clone https://github.com/user/repo
+cd repo
+npm install</code></pre>
+        </section>
+
+        <section class="card">
+            <h2>Usage</h2>
+            <pre><code>npm start</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
+
+<script>
+const btn = document.getElementById("themeToggle");
+btn.onclick = () => document.body.classList.toggle("dark");
+</script>
+
+</body>
+</html>
