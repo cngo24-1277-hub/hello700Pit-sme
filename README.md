@@ -1,40 +1,57 @@
 # 🕵️‍♂️ About Me
- **Hello! I'm Charles Edrick P. Ngo   
-“I am discovering parts of myself I never knew I needed.”**  
 
-# My Hobbies 
-**𖧋 BASKETBALL**  
-**𖧋 PLAYING ONLINE GAMES**
+**Hello! I'm Charles Edrick P. Ngo**  
+*“I am discovering parts of myself I never knew I needed.”*
 
-# 🎓 ACADEMIC
-*● Senior Highschool: Angeles City National Trade School (CSS Strand)*   
-*● Junior Highschool: Angeles City National Trade School*  
-*● Elementary School: Malabanias Integrated School*
+---
 
-# 📌 PERSONAL SKILLS
-**● Time Management🕰️**  
-**● Positive Attitude**
+## 🎯 My Hobbies
+**𖧋 Basketball**  
+**𖧋 Playing Online Games**
 
-## 💻 MY PROJECTS
-**MIDTERMS**
-**MIDTERMS:**  
-**📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds123.pdf)   
-**📂:** LAB TASK 2 - [USING LOOPS AND FUNCTIONS](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/charles2.pdf)   
-**📂:** LAB TASK 3 - [USING LIST COLLECTION TYPES](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds12.pdf)   
-**📂:** LAB TASK 4 - [DICTIONARIES](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds1.pdf)   
-**📂:** LAB TASK 5 - [CREATING CLASS AND INSTANTIATING OBJECTS IN PYTHON](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds.pdf)   
-**FINALS:**  
-**📂:** LAB TASK 1 - [ENCAPSULATION](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalLabTask1.pdf)  
-**📂:** LAB TASK 2 - [INHERITANCE](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalsTask2.pdf)  
-**📂:** LAB TASK 3 - [POLYMORPHISM](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalTask3.pdf)   
-**📂:** LAB TASK 4 - [PYTHON AND TKINTER GUI PROGRAM](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/Finals%20Task%204.pdf)   
-**📂:** LAB TASK 5 - [CRUD CLI USING PYTHON AND MYSQL](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/TASK%205.pdf)  
-**📂:** LAB TASK 6 - [MYSQL AND TKINTER HUI](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/TASK%206%20Mysql%20and%20tkinter%20HUI.pdf) 
+---
 
+## 🎓 Academic Background
+- **Senior High School:** Angeles City National Trade School *(CSS Strand)*  
+- **Junior High School:** Angeles City National Trade School  
+- **Elementary School:** Malabanias Integrated School
 
+---
 
+## 📌 Personal Skills
+- **Time Management 🕰️**  
+- **Positive Attitude**
 
-## 📞 CONTACTS
+---
+
+## 💻 My Projects
+
+<details>
+<summary>📚 Midterms</summary>
+
+- **📂 Lab Task 1:** [Python Fundamentals](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds123.pdf)  
+- **📂 Lab Task 2:** [Using Loops and Functions](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/charles2.pdf)  
+- **📂 Lab Task 3:** [Using List Collection Types](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds12.pdf)  
+- **📂 Lab Task 4:** [Dictionaries](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds1.pdf)  
+- **📂 Lab Task 5:** [Creating Classes and Instantiating Objects in Python](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds.pdf)
+
+</details>
+
+<details>
+<summary>🏁 Finals</summary>
+
+- **📂 Lab Task 1:** [Encapsulation](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalLabTask1.pdf)  
+- **📂 Lab Task 2:** [Inheritance](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalsTask2.pdf)  
+- **📂 Lab Task 3:** [Polymorphism](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalTask3.pdf)  
+- **📂 Lab Task 4:** [Python and Tkinter GUI Program](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/Finals%20Task%204.pdf)  
+- **📂 Lab Task 5:** [CRUD CLI Using Python and MySQL](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/TASK%205.pdf)  
+- **📂 Lab Task 6:** [MySQL and Tkinter GUI](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/TASK%206%20Mysql%20and%20tkinter%20HUI.pdf)
+
+</details>
+
+---
+
+## 📞 Contacts
 
 <p align="center">
     <a href="mailto:cngo24-1277@cca.edu.ph" target="_blank">
