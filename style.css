@@ -1,95 +1,96 @@
-/* GLOBAL STYLES */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
+/* ======= Body & Background ======= */
 body {
-    background: linear-gradient(135deg, #4b0082, #191970);
-    color: #fff;
-    padding: 20px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    /* Animated Barney-style gradient */
+    background: linear-gradient(135deg, #9400d3, #ff69b4, #8a2be2, #ffb6c1);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
 }
 
-/* HEADER / HERO */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ======= Sparkles Overlay ======= */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.postimg.cc/tTgR9K1k/sparkle.png');
+    background-repeat: repeat;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+/* ======= Header / Hero Section ======= */
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
+    position: relative;
+    z-index: 1;
 }
 
-.hero h1 {
-    font-size: 50px;
-    font-weight: 700;
+/* Profile Image */
+.profile-img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px #ff69b4;
 }
 
-.subtitle {
-    font-size: 18px;
-    opacity: 0.8;
-    margin-top: 5px;
+/* Barney Image Floating */
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 200px;
+    height: 250px;
+    background: url('https://upload.wikimedia.org/wikipedia/en/0/03/Barney_the_Dinosaur.png') no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    opacity: 0.9;
+    pointer-events: none;
+    animation: floatBarney 3s ease-in-out infinite;
 }
 
-/* SECTIONS */
+@keyframes floatBarney {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+/* ======= Section Cards ======= */
 .section-card {
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(10px);
-    padding: 25px;
-    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
     max-width: 800px;
-    margin: 25px auto;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
 }
 
-.section-card h2 {
-    margin-bottom: 12px;
-    color: #ffe4ff;
+/* Headings */
+h1, h2 {
+    text-shadow: 2px 2px 5px #000000;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li {
-    padding: 6px 0;
-}
-
-/* PROJECT LINKS */
+/* Project Links */
 .project-list a {
-    color: #ffd6ff;
+    color: #ffb6c1;
     text-decoration: none;
     font-weight: bold;
 }
-
 .project-list a:hover {
     text-decoration: underline;
-}
-
-/* CONTACT BUTTONS */
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.btn {
-    padding: 12px 28px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    color: white;
-    transition: 0.3s;
-}
-
-.email {
-    background: #6a0dad;
-}
-
-.facebook {
-    background: #1c5fff;
-}
-
-.btn:hover {
-    transform: scale(1.07);
-    opacity: 0.85;
+    color: #ffffff;
 }
