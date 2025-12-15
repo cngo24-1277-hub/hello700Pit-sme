@@ -16,6 +16,7 @@
 **● Positive Attitude**
 
 ## 💻 MY PROJECTS
+**MIDTERMS:**
 **📂:** LAB TASK 1 - [PYTHON FUNDAMENTALS](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds123.pdf)   
 **📂:** LAB TASK 2 - [USING LOOPS AND FUNCTIONS](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/charles2.pdf)   
 **📂:** LAB TASK 3 - [USING LIST COLLECTION TYPES](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds12.pdf)   
