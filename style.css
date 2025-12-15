@@ -1,3 +1,7 @@
+/* ========================
+   Spider-Man Portfolio Styles
+   ======================== */
+
 /* ======= Body & Background ======= */
 body {
     margin: 0;
@@ -7,8 +11,8 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 
-    /* Animated Barney-style gradient */
-    background: linear-gradient(135deg, #9400d3, #ff69b4, #8a2be2, #ffb6c1);
+    /* Animated Spider-Man gradient */
+    background: linear-gradient(135deg, #ff0000, #1a1a1a, #ff0000, #000000);
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
 }
@@ -19,7 +23,7 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* ======= Sparkles Overlay ======= */
+/* ======= Spider Web Overlay ======= */
 body::before {
     content: '';
     position: absolute;
@@ -27,7 +31,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://i.postimg.cc/tTgR9K1k/sparkle.png');
+    background-image: url('https://i.postimg.cc/8zG7y6k7/spiderweb.png'); /* spider web pattern */
     background-repeat: repeat;
     opacity: 0.2;
     pointer-events: none;
@@ -45,10 +49,10 @@ body::before {
 .profile-img {
     border-radius: 50%;
     border: 4px solid #fff;
-    box-shadow: 0 0 20px #ff69b4;
+    box-shadow: 0 0 20px #ff0000;
 }
 
-/* Barney Image Floating */
+/* Spider-Man Image Overlay */
 .hero::after {
     content: '';
     position: absolute;
@@ -56,27 +60,27 @@ body::before {
     right: 20px;
     width: 200px;
     height: 250px;
-    background: url('https://upload.wikimedia.org/wikipedia/en/0/03/Barney_the_Dinosaur.png') no-repeat;
+    background: url('https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg') no-repeat;
     background-size: contain;
     background-position: bottom right;
     opacity: 0.9;
     pointer-events: none;
-    animation: floatBarney 3s ease-in-out infinite;
+    animation: floatSpider 3s ease-in-out infinite;
 }
 
-@keyframes floatBarney {
+@keyframes floatSpider {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-15px); }
 }
 
 /* ======= Section Cards ======= */
 .section-card {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     margin: 20px auto;
     padding: 20px;
     border-radius: 15px;
     max-width: 800px;
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
 }
 
 /* Headings */
@@ -86,7 +90,7 @@ h1, h2 {
 
 /* Project Links */
 .project-list a {
-    color: #ffb6c1;
+    color: #ff6666;
     text-decoration: none;
     font-weight: bold;
 }
@@ -94,3 +98,5 @@ h1, h2 {
     text-decoration: underline;
     color: #ffffff;
 }
+
+
