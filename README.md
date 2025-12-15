@@ -29,7 +29,7 @@
 <details>
 <summary>📚 Midterms</summary>
 
-- **📂 Lab Task 1:** [Python Fundamentals](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds123.pdf)  
+- **📂 Lab Task 1:** [Python Fundamentals1](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds123.pdf)  
 - **📂 Lab Task 2:** [Using Loops and Functions](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/charles2.pdf)  
 - **📂 Lab Task 3:** [Using List Collection Types](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds12.pdf)  
 - **📂 Lab Task 4:** [Dictionaries](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds1.pdf)  
