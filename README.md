@@ -23,7 +23,7 @@
 **📂:** LAB TASK 4 - [DICTIONARIES](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds1.pdf)   
 **📂:** LAB TASK 5 - [CREATING CLASS AND INSTANTIATING OBJECTS IN PYTHON](https://github.com/cngo24-1277-hub/PORTFOLIO_NI_NGO/blob/main/MIDTERM/eds.pdf)   
 **FINALS:**  
-**📂:** LAB TASK 1 - (https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalLabTask1.pdf)  
+**📂:** LAB TASK 1 - [Encapsulation](https://github.com/cngo24-1277-hub/hello700Pit-sme/blob/main/FinalLabTask1.pdf)  
 
 
 
